@@ -23,13 +23,13 @@ CREATE TABLE "career_stats_adj3" (
 
 CREATE TABLE "master_adj" (
     "Name" VARCHAR   NOT NULL,
-    "firstName" VARCHAR   NOT NULL,
-    "lastName" VARCHAR   NOT NULL,
-    "playerID" VARCHAR   NOT NULL,
-    "hofID" VARCHAR   NOT NULL,
-    "firstNHL" INT   NOT NULL,
-    "lastNHL" INT   NOT NULL,
-    "pos" VARCHAR   NOT NULL
+    "firstName" VARCHAR,
+    "lastName" VARCHAR,
+    "playerID" VARCHAR,
+    "hofID" VARCHAR,
+    "firstNHL" VARCHAR,
+    "lastNHL" VARCHAR,
+    "pos" VARCHAR
 );
 
 ALTER TABLE "career_stats_adj2" ADD CONSTRAINT "fk_career_stats_adj2_Name" FOREIGN KEY("Name")
