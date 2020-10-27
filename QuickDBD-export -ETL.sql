@@ -5,12 +5,12 @@
 
 CREATE TABLE "career_stats_adj2" (
     "Name" VARCHAR   NOT NULL,
-    "GP" INT   NOT NULL,
-    "G" INT   NOT NULL,
-    "A" INT   NOT NULL,
-    "TP" INT   NOT NULL,
-    "PPG" VARCHAR   NOT NULL,
-    "PIM" VARCHAR   NOT NULL,
+    "GP" DECIMAL   NOT NULL,
+    "G" DECIMAL   NOT NULL,
+    "A" DECIMAL   NOT NULL,
+    "TP" DECIMAL   NOT NULL,
+    "PPG" DECIMAL   NOT NULL,
+    "PIM" DECIMAL   NOT NULL,
     "Period" VARCHAR   NOT NULL,
     "Years" VARCHAR   NOT NULL,
     "POS" VARCHAR   NOT NULL,
