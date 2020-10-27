@@ -16,13 +16,14 @@ CREATE TABLE "career_stats_adj3" (
     "POS" VARCHAR   NOT NULL,
     "firstYear" INT   NOT NULL,
     "lastYear" INT   NOT NULL,
+    FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
     CONSTRAINT "pk_career_stats_adj3" PRIMARY KEY (
         "Name"
      )
 );
 
 CREATE TABLE "master_adj" (
-    "Name" VARCHAR   NOT NULL,
+    "Name"  VARCHAR   NOT NULL PK,
     "firstName" VARCHAR   NULL,
     "lastName" VARCHAR   NULL,
     "playerID" VARCHAR   NULL,
