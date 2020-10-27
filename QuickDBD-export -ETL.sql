@@ -3,20 +3,20 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "career_stats_adj2" (
+CREATE TABLE "career_stats_adj3" (
     "Name" VARCHAR   NOT NULL,
-    "GP" DECIMAL   NOT NULL,
+    "GP" VARCHAR   NOT NULL,
     "G" DECIMAL   NOT NULL,
     "A" DECIMAL   NOT NULL,
     "TP" DECIMAL   NOT NULL,
-    "PPG" DECIMAL   NOT NULL,
+    "PPG" VARCHAR   NOT NULL,
     "PIM" DECIMAL   NOT NULL,
     "Period" VARCHAR   NOT NULL,
-    "Years" VARCHAR   NOT NULL,
+    "Years" DECIMAL   NOT NULL,
     "POS" VARCHAR   NOT NULL,
     "firstYear" INT   NOT NULL,
     "lastYear" INT   NOT NULL,
-    CONSTRAINT "pk_career_stats_adj2" PRIMARY KEY (
+    CONSTRAINT "pk_career_stats_adj3" PRIMARY KEY (
         "Name"
      )
 );
