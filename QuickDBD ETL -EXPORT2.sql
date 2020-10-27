@@ -23,7 +23,7 @@ CREATE TABLE "career_stats_adj3" (
 );
 
 CREATE TABLE "master_adj" (
-    "Name"  VARCHAR   NOT NULL PK,
+    "Name"  VARCHAR   NOT NULL Primary Key,
     "firstName" VARCHAR   NULL,
     "lastName" VARCHAR   NULL,
     "playerID" VARCHAR   NULL,
